@@ -1,0 +1,108 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #491b64; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+    color: #333; /* Título azul oscuro */
+}
+
+#noteForm {
+    margin-bottom: 20px;
+}
+
+#noteForm input, #noteForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+#noteForm button {
+    background-color: #4CAF50; /* Botón verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+}
+
+#noteForm button:hover {
+    background-color: #3e8e41; /* Botón verde oscuro al pasar el mouse */
+}
+
+#notesList {
+    list-style: none; /* No mostrar viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+#notesList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Borde gris claro */
+}
+
+#notesList li:last-child {
+    border-bottom: none; /* No mostrar borde en el último elemento */
+}
+delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #e91e63;
+}
+.edit-button {
+    background-color: #4CAF50;
+    color: #f8f1f1;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #3e8e41;
+}
+
+.edit-form {
+    margin-top: 10px;
+}
+
+.edit-form input, .edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
